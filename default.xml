@@ -462,7 +462,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/inspireOS" name="iAOSPA/android_vendor_inspireOs" remote="github" revision="iOs-kk" >
+  <project path="vendor/InspireOS" name="iAOSPA/android_vendor_inspireOs" remote="github" revision="iOs-kk" >
     <copyfile src="build.sh" dest="rom-build.sh" />
     <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
