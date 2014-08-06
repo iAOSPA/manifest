@@ -27,7 +27,6 @@
            sync-c="true"
            sync-f="true"
            sync-j="4" />
-<project path="external/busybox"
   <project path="manifest" name="AOSPA-legacy/manifest" remote="github" revision="kitkat" />
 
   <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
