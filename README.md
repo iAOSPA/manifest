@@ -28,7 +28,7 @@ $ cd WORKSPACE
 
 # 在创建好的目录里安装repo
 # 如果你想提交 PATCH，请用真实的邮件和用户名
-$ repo init -u https://github.com/iAOSPA/manifest -b xiaomi-kk
+$ repo init -u https://github.com/iAOSPA/manifest -b n5x
 ```
 
 ### 下载源码 ###
