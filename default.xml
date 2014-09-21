@@ -71,7 +71,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="AOSPA-legacy/android_external_bluetooth_bluedroid" remote="github" revision="kitkat" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="stable/cm-11.0" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
@@ -225,7 +225,7 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" remote="cm" revision="cm-11.0" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="cm" revision="cm-11.0" />
@@ -292,7 +292,7 @@
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
+  <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
@@ -334,8 +334,8 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="AOSPA-legacy/android_packages_apps_Bluetooth" remote="github" revision="kitkat" />
-  <project path="packages/apps/BluetoothExt" name="AOSPA-legacy/android_packages_apps_BluetoothExt" remote="github" revision="kitkat" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="cm" revision="cm-11.0" />
@@ -360,12 +360,12 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/ParanoidOTA" name="AOSPA-legacy/android_packages_apps_ParanoidOTA" remote="github" revision="kitkat" />
-  <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" revision="stable/cm-11.0" />
+  <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ScreenRecorder" name="AOSPA-legacy/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
   <project path="packages/apps/Settings" name="n5xpa-legacy/android_packages_apps_Settings" remote="github" revision="kitkat"  />
-  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
+  <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SimpleExplorer" name="DF1E/SimpleExplorer" remote="github" revision="master" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
@@ -378,7 +378,7 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="cm" revision="stable/cm-11.0" />
+  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="cm" revision="cm-11.0" />
   <project path="packages/providers/DownloadProvider" name="AOSPA-legacy/android_packages_providers_DownloadProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="AOSPA-legacy/android_packages_providers_MediaProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
